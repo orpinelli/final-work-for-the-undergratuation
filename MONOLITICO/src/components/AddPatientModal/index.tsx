@@ -9,7 +9,7 @@ interface AddPatientModalProps {
     height?: number;
     birthDate?: string;
   }) => void;
-  initialData?: { // Suporte a dados iniciais para edição
+  initialData?: { 
     name: string;
     cpf?: string;
     age?: number;
@@ -25,7 +25,7 @@ export default function AddPatientModal({ onClose, onAdd, initialData }: AddPati
   const [height, setHeight] = useState<number | ''>('');
   const [birthDate, setBirthDate] = useState('');
   
-  // Criar uma referência para o modal
+  
   const modalRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -38,11 +38,11 @@ export default function AddPatientModal({ onClose, onAdd, initialData }: AddPati
     }
   }, [initialData]);
 
-  // Detectar clique fora do modal
+
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (modalRef.current && !modalRef.current.contains(event.target as Node)) {
-        onClose(); // Fechar o modal se o clique for fora dele
+        onClose(); 
       }
     };
 
