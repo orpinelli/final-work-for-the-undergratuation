@@ -1,4 +1,3 @@
-
 export default function Header() {
   return (
     <header className="bg-blue-600 text-white p-4 shadow-md">
@@ -6,13 +5,13 @@ export default function Header() {
         <h1 className="text-2xl font-bold">Sistema de Gestão</h1>
         <ul className="flex space-x-6">
           <li>
-            <a href="/">
-              <a className="hover:underline">Home</a>
+            <a href="/" className="hover:underline">
+              Home
             </a>
           </li>
           <li>
-            <a href="/dashboard">
-              <a className="hover:underline">Dashboard</a>
+            <a href="/dashboard" className="hover:underline">
+              Dashboard
             </a>
           </li>
         </ul>
