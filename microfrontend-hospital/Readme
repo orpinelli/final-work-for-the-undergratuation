@@ -1,0 +1,11 @@
+cd C:\nginx-1.27.4
+
+
+Para iniciar o Nginx, digite:
+./nginx.exet nginx
+
+Para recarregar a configuração após alterações, digite:
+./nginx.exe -s reload
+
+Para parar o Nginx, digite:
+./nginx.exe -s stop
