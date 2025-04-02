@@ -11,7 +11,9 @@
   "scripts": {
     "dev": "concurrently \"npm run dev --workspace=home\" \"npm run dev --workspace=page-dashboard\" \"npm run dev --workspace=page-exames-paciente\" \"npm run dev --workspace=page-gestao-paciente\" \"npm run dev --workspace=page-portal-paciente\"",
     "nginx": "C:\\nginx-1.27.4\\nginx.exe",
-    "dev:all": "concurrently \"npm run nginx\" \"npm run dev\""
+    "dev:all": "concurrently \"npm run nginx\" \"npm run dev\"",
+    "install": "concurrently \"npm install --workspace=home\" \"npm install --workspace=page-dashboard\" \"npm install --workspace=page-exames-paciente\" \"npm install --workspace=page-gestao-paciente\" \"npm install --workspace=page-portal-paciente\"",
+    "update": "concurrently \"npm update --workspace=home\" \"npm update --workspace=page-dashboard\" \"npm update --workspace=page-exames-paciente\" \"npm update --workspace=page-gestao-paciente\" \"npm update --workspace=page-portal-paciente\""
   },
   "devDependencies": {
     "concurrently": "^7.6.0"
