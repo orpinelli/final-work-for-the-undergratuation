@@ -9,3 +9,14 @@ Para recarregar a configuração após alterações, digite:
 
 Para parar o Nginx, digite:
 ./nginx.exe -s stop
+
+
+
+
+http://localhost:3000/page-dashboard
+
+http://localhost:3000/page-exames-paciente
+
+http://localhost:3000/page-gestao-paciente
+
+http://localhost:3000/page-portal-paciente
