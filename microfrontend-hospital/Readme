@@ -13,7 +13,7 @@ Para parar o Nginx, digite:
 
 
 
-http://localhost:3000/page-dashboard
+http://localhost:3000/dashboard
 
 http://localhost:3000/page-exames-paciente
 
