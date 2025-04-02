@@ -15,8 +15,8 @@ Para parar o Nginx, digite:
 
 http://localhost:3000/dashboard
 
-http://localhost:3000/page-exames-paciente
+http://localhost:3000/exames
 
-http://localhost:3000/page-gestao-paciente
+http://localhost:3000/login
 
-http://localhost:3000/page-portal-paciente
+http://localhost:3000/portal
