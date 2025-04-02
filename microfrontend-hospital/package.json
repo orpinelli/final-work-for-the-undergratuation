@@ -4,15 +4,14 @@
   "workspaces": [
     "home",
     "dashboard",
-    "exames",
     "portal",
     "login"
   ],
   "scripts": {
-    "dev": "concurrently \"npm run dev --workspace=home\" \"npm run dev --workspace=dashboard\" \"npm run dev --workspace=exames\" \"npm run dev --workspace=portal\" \"npm run dev --workspace=login\"",
+    "dev": "concurrently \"npm run dev --workspace=home\" \"npm run dev --workspace=dashboard\"  \"npm run dev --workspace=portal\" \"npm run dev --workspace=login\"",
     "nginx": "C:\\nginx-1.27.4\\nginx.exe",
     "dev:all": "concurrently \"npm run nginx\" \"npm run dev\"",
-    "update": "concurrently \"npm update --workspace=home\" \"npm update --workspace=dashboard\" \"npm update --workspace=exames\" \"npm update --workspace=portal\" \"npm update --workspace=login\""
+    "update": "concurrently \"npm update --workspace=home\" \"npm update --workspace=dashboard\"  \"npm update --workspace=portal\" \"npm update --workspace=login\""
   },
   "devDependencies": {
     "concurrently": "^7.6.0"

@@ -11,11 +11,10 @@ Para parar o Nginx, digite:
 ./nginx.exe -s stop
 
 
-
+Home:
+http://localhost:3000
 
 http://localhost:3000/dashboard
-
-http://localhost:3000/exames
 
 http://localhost:3000/login
 
